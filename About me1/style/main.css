@@ -1,0 +1,244 @@
+
+:root {
+    --light-clr: #FFF;
+    --dark-clr: #23272A;
+    --brand-clr: #7289DA;
+    
+    --section-spacing: 5.6rem 2.4rem;
+    --off-white-clr: #f6f6f6;
+    /* 
+    
+    --general-font-size: 2rem;
+    --primary-title-font-size: 4.8rem;
+    --secondary-title-font-size: 4rem;
+    --main-font-family:  sans-serif;
+    
+    
+*/    
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+
+body{
+    font-size: 100%;
+    width: 90%;
+    max-width: 1100px;
+    margin: 1em auto;
+    
+}
+
+
+
+
+.home {
+    width: 97.27%;
+    padding: 15px 1.363%;
+    align-items: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: blue;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: 35%;
+    width: 35%;
+    margin: auto;
+}
+.home_title {
+    color: var(--light-clr);
+    font-size: 3em;
+    margin-bottom: 1%;
+    margin-left: 35%;
+}
+
+.home_profession{
+    color: var(--light-clr);
+    font-size: 1em;
+    line-height: 3.2em;
+    margin-top: 2.4em;
+    margin-left: 40%;
+      
+}
+.home_btn .btn-light{
+    margin-left: 30%;
+    display: inline-flex;
+}
+.btn-light{
+    background-color: var(--light-clr);
+    padding: 1.6em 3.2em;
+    border-radius: 2.8em;
+}
+.btn-light:hover{
+    color: var(--brand-clr)
+}
+
+.btn-dark{
+    display: inline-flex;
+    background-color: var(--dark-clr);
+    padding: 1.6em 3.2em;
+    border-radius: 2.8em;
+    color: var(--light-clr);
+    margin: 2.8em;
+
+}
+ .btn-dark:hover{
+     background-color: #36393f;
+ }
+
+
+ .home-content-wrapper{
+     grid-column: span 4;
+     color: var(--light-clr);
+ }
+*/
+/*----------
+about me section 
+------------*/
+
+section.info{
+    border: 2px solid black;
+    background-color: var(--off-white-clr);
+    padding: var(--section-spacing);
+    height: 10em;
+}
+.aboutme{
+    width: 65.625%;                  /* 525 / 800 X 100 */
+	float: left;
+	padding: 0 2.5% 20px 2.5%;
+}
+.basic-info{
+    width: 26.875%;                     /* 215 / 800 x 100 */
+	float: right;
+	padding: 0 0 20px 2.5%;
+}
+/*---------
+Educational Section
+----------*/
+section.info{
+    border: 2px solid black;
+    background-color: var(--off-white-clr);
+    padding: var(--section-spacing);
+    height: 20em;
+}
+
+
+.edu-title{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+.edu-table{
+    margin: 1.25 auto;
+    border-collapse: separate;  
+}
+th,td{
+    border:1px solid black;
+    box-shadow: var(--dark-clr);
+    
+}
+td.left{
+    text-align: center;
+    width: 3%;
+    background-color: green;
+    padding-top: 1em;
+}
+td.right{
+    text-align: left;
+    text-indent: 2em;
+    width: 12%;
+    padding-left: 2em;
+}
+
+/*---------
+contact me
+----------*/
+#contact{
+    border: 2px solid black;
+    background-color: var(--off-white-clr);
+    padding: var(--section-spacing);
+    height: 100%;
+}
+.contact-img{
+    margin: auto;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+ label{
+    width: 100%;
+    padding: 12px;
+    
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+ 
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 30%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  input[type=reset] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 25%;
+  }
+  
+  input[type=reset]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+  .contact-column {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 479px) {
+
+}
+@media only screen 
+    and (min-device-width: 480px) 
+    and (max-device-width: 640px) {
+
+}  

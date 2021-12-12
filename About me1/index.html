@@ -1,0 +1,144 @@
+<!DOCTYPE html>>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vishant Dahiya</title>
+    <link rel="stylesheet" href="style/main.css">
+    <script>
+      function text(x) {
+          if (x==1) document.getElementById("hourly_rate").style.display= "block";
+          else document.getElementById("hourly_rate").style.display= "none";
+          return;
+      }   
+
+
+    </script>
+</head>
+<body>
+<section class="home">
+    
+<div class="row container">
+
+        <div class="home-content-wrap">
+
+         <img src="images/IMG_6258.png" alt="Vishant Dahiya image">
+         <h1 class="home_title">Vishant Dahiya</h1>
+         <p class="home_profession">Web developer. Software engineer</p><br>
+    
+         <div class="home_btn">
+         <a href="#" class="btn-light"><i class="fas fa-download"></i>Download Resume</a>
+         <a href="#contact" class="btn-dark"  >Contact me</a>
+         </div>
+        </div>
+</div>
+
+</section>
+<section class="info">
+    <div class="aboutme">
+        <h2>About me</h2>
+        <p>I am a highly competent IT professional with a proven track record in designing websites, networking and managing databases. I have strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of clients. I am eager to be challenged in order to grow and further improve my IT skills. My greatest passion is in life is using my technical know-how to benefit other people and organisations.</p>
+    </div>
+    <aside class="basic-info">
+        <h3><b>Basic information</b></h3>
+        <P>
+            AGE:&nbsp; 20 <br>
+            EMAIL:&nbsp; dvishant@gmail.com <br>
+            Language:&nbsp; English, French<br>
+        </P>
+    </aside>
+</section>
+
+<section class="edu-info">
+    <h2 class="edu-title"><b>Education</b></h2>
+    <table class="edu-table">
+        <tr>
+            <td class="left">
+            <p>2017-18<br>
+                <h3> Secondary School Certificate</h3>
+            </p>
+            </td>
+            <td class="right">
+                <p><h3>Secondary School Certificate</h3>
+                    <h4>Army Public School, Dhaula Kuan, New Dehi, India </h4><br>
+                    <p>We get basic knowledge about all the Stream that we are gonna choose and study in our Higher Secondary school.     We had all are basic subjects like English, Hindi, Mathematics, Science and Social Science</p>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td class="left">
+            <p>2019-20<br>
+                <h3>Higher Secondary Certificate</h3>
+            </p>
+            </td>
+            <td class="right">
+                <p><h3>Higher Secondary Certificate</h3>
+                    <h4>Army Public School, Delhi Cantt, New Dehi, India</h4><br>
+                    <p>I did my certification in Science Stream. I learned Physics, Chemistry, Mathematics and Computer Science.  </p>
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="left">
+            <p>2020-23 Expected<br>
+                <h3>Advanced Diploma in Computer Programming and Analysis</h3>
+            </p>
+            </td>
+            <td class="right">
+            
+                <p><h3>Advanced Diploma in Computer Programming and Analysis</h3>
+                    <h4>Seneca College</h4><br>
+                    <p>I am learning programming languages, program design and system analysis. Web concepts are integrated into all      courses to develop active database web programs on a variety of operating systems.</p>
+                </p>
+            </td>
+        </tr>
+
+    </table>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-img">
+        <img src="images/2.PNG" >
+      </div>
+    <div class="contact-column">
+    <form action="" class="contact_form">
+        
+        <input type="text" placeholder="Name" >
+        <input type="email" placeholder="EMAIL" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
+        <input type="text" placeholder="Address" >
+        <label for=”city”>City:</label>
+        <input type=”text” name=”city” id=”c_list” list=”city_list”>
+        <datalist id=”city_list”>
+        <option>Toronto</option>
+        <option>Vancouver</option>
+        <option>Ottawa</option>
+        <option>Ontario</option>
+        </datalist>
+
+        <input type="text" placeholder="pincode"  pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]">
+       
+        <input type="radio" id="hiring" name="query" value="Hiring" checked onclick="text(1)">
+        <label for="hiring">Hiring</label>
+        <input type="radio" id="question" name="query" value="question"  onclick="text(0)">
+        <label for="question">Question</label>
+        <input type="radio" id="comment" name="query" value="Comment" onclick="text(0)">
+        <label for="comment">Comment</label>
+        
+
+        <div class="input_hour" id="hourly_rate">
+            <input type="text" placeholder="Enter hourly rate:" >
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="message or question"></textarea>    
+    
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</div>
+</section>
+        
+    
+</body>
+</html>
